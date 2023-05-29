@@ -112,7 +112,7 @@ int main() {
         /**
          * It tests whether the del function is working properly with incorrect inputs
          */
-        TEST(delTest, test1){
+        TEST(delTest, test2){
             k1.post(make_pair("dfsadasf","3"));
             k1.del("dfsadasfdasdsa");
             EXPECT_EQ(3, k1.get<int>("dfsadasf"));
