@@ -1,0 +1,8 @@
+hal=kenyer
+pohar=kenyer
+lehel=true
+nemlehel=false
+q=1
+w=2
+e=3.4
+#kiseger
