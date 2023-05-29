@@ -1,7 +1,3 @@
-//
-// Created by Tomi on 2023. 05. 28..
-//
-
 #include "gtest_lite.h"
 #include "konf_hash.hpp"
 #include "menu.h"
@@ -68,7 +64,7 @@ int main() {
         /**
         * It tests whether the post function is working properly if we use a blank string as value
         */
-        TEST(postTest, test6){
+        TEST(postTest, test7){
             k1.post(make_pair("bagoly",""));
             EXPECT_STREQ("", k1.get<string>("bagoly").c_str());
         }END

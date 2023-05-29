@@ -1,7 +1,3 @@
-//
-// Created by Tomi on 2023. 04. 17..
-//
-
 #include "menu.h"
 
 using namespace std;

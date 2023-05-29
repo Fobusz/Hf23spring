@@ -1,4 +1,3 @@
-
 #ifndef KONFREADER_KONF_HASH_H
 #define KONFREADER_KONF_HASH_H
 

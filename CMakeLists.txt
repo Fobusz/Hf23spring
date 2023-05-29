@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(KonfReader
-#        main.cpp
-        test.cpp
+        main.cpp
+#        test.cpp
         gtest_lite.h
         memtrace.cpp
         memtrace.h
